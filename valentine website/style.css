@@ -1,0 +1,44 @@
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#yesButton {
+    background-color: rgb(127, 241, 95);
+    color: white;  /* ✅ Fixed */
+}
+
+#noButton {
+    background-color: #ff0000;
+}
+
+@keyframes fall {
+    from { transform: translateY(0px); }
+    to { transform: translateY(100vh); }
+}
+
